@@ -114,3 +114,34 @@ h1 {
 .bio h4 {
   margin-top: 4px;
 }
+
+.profile-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.profile-info a {
+  padding: 6px 28px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  color: black;
+  border: 1px solid var(--stroke, #dbdbdb);
+  border-radius: 4px;
+}
+
+.profile-info .dark-mode {
+  white-space: nowrap;
+  background: #3897f0;
+  color: white;
+  border: none;
+}
+
+.profile-info .down-arrow {
+  padding: 6px 8px;
+}
