@@ -195,3 +195,20 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.post-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+  grid-gap: 3px; /* Space between grid items */
+}
+
+.image-container {
+  position: relative;
+}
+
+.logo-post {
+  position: absolute;
+  top: 5%; /* Responsive vertical position */
+  right: 5%; /* Responsive horizontal position */
+  width: 10%; /* Logo size as a percentage of the container */
+}
