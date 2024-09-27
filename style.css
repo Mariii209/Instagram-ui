@@ -210,5 +210,5 @@ img {
   position: absolute;
   top: 5%; /* Responsive vertical position */
   right: 5%; /* Responsive horizontal position */
-  width: 10%; /* Logo size as a percentage of the container */
+  width: 15%; /* Logo size as a percentage of the container */
 }
