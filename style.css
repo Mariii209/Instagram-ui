@@ -211,7 +211,4 @@ img {
   top: 5%; /* Responsive vertical position */
   right: 5%; /* Responsive horizontal position */
   width: 10%; /* Logo size as a percentage of the container */
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
 }
