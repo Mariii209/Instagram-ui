@@ -4,8 +4,24 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   margin: 10px;
+}
+
+main {
+  flex: 1;
 }
 
 h1 {
@@ -235,4 +251,133 @@ nav {
   border-radius: 50%;
   display: block;
   object-fit: cover;
+}
+
+.sign-up {
+  text-align: center;
+}
+
+.sign-up img {
+  display: block;
+  margin: 0 auto;
+}
+
+.sign-up h6 {
+  color: #868686;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.down-arrow {
+  color: #868686;
+  font-size: 6px;
+  display: block;
+  margin: 0 0 0 2px;
+}
+
+.logos-instagram {
+  margin: 200px 0 24px;
+}
+
+.signup-message {
+  color: #3a3a3a;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 100px;
+}
+
+.signup-with-facebook {
+  margin-bottom: 46px;
+}
+
+.signup-with-facebook a {
+  border-radius: 5px;
+  background: #1877f2;
+  box-shadow: 0px 2.5px 5px 0px rgba(0, 0, 0, 0.1);
+  padding: 12px 67px 14px 68px;
+  text-decoration-line: none;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.signup-with-facebook a i {
+  margin-right: 8px;
+}
+
+.or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-bottom: 46px;
+}
+
+.dash {
+  width: 35%;
+  height: 1px;
+  background-color: #d3d3d3;
+}
+
+.or span {
+  padding: 0 10px;
+  color: #6d6d6d;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.signup-phone-email {
+  color: #323232;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.signup-footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 15px 0;
+  background: #f4f4f4;
+}
+
+.signup-footer h5 {
+  color: #6b6b6b;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.signup-footer a {
+  color: #23244f;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  margin-left: 3px;
 }
